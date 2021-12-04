@@ -53,8 +53,10 @@ class Deck extends Component {
 
     return (
       <div className="Deck">
-        <h1>Card Dealer</h1>
-        <button onClick={this.getCard}>Get Card!</button>
+        <h1 class="Deck-title">💎 Card Dealer 💎</h1>
+        <button className="Deck-btn" onClick={this.getCard}>
+          Get Card!
+        </button>
         <div className="Deck-cardarea"></div>
         {cards}
       </div>
